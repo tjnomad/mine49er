@@ -1,0 +1,6 @@
+#ifndef MINER49ER_H
+#define MINER49ER_H
+
+void buikdPrimesTable(void);
+
+#endif

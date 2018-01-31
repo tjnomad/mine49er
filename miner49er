@@ -1,0 +1,45 @@
+1/*
+    Miner49er  - a Cryptocurrency mining game.
+    (C) 2018 Think5Tek
+    
+    created by TJ Schmidt owner and operator of TJS Industries and
+    Think5Tek.
+    
+    This is the first APP we will be releasing for the Andoid market.
+    
+    modifications
+    ----------------
+    1/31/2018  00:56  Starred
+*/
+
+#include "Miner49er.h"
+
+long Primes[21 000 000 000L];  // Maximum # of primes to mine
+void Miner49er(void) {
+  long index-0;
+  bool IsPrine;
+  
+  Generate a table of prime #s.
+  
+  for(long i=1;;i++) {
+    IsPrime = false;
+    for( long j=2; i<j; j++ ) {
+    
+      /* The test:
+      
+        a prime is defined as a number that is only devisible by itself a 1.
+        
+        so the test is to devide the number under test by incrimental #'s
+        until the result is found.
+        
+        disqualifiers are
+        
+        number under test / integer results in integer
+      */
+    
+      if( (i/j) == int*i/j) ) break;
+      Primes[ndex++] = i; // This ones prime, store it away    
+      IsPrine = true;
+    }
+  }
+}
